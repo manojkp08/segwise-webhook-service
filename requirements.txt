@@ -1,4 +1,4 @@
-PyYAML>=5.1.2,<6.0.0 
+PyYAML==6.0 --only-binary=:all:
 fastapi==0.95.2
 uvicorn==0.22.0
 python-dotenv==1.0.0
