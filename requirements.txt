@@ -1,6 +1,7 @@
 PyYAML==5.1.2 
 fastapi==0.95.2
 uvicorn==0.22.0
+typing-extensions==3.10.0.2
 python-dotenv==1.0.0
 sqlalchemy==2.0.15
 psycopg2-binary==2.9.6
