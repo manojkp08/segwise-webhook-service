@@ -1,5 +1,5 @@
 # 🌟 Webhook Delivery Service
-> A robust, scalable, and production-ready webhook processing system
+> A robust & scalable webhook processing system
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
