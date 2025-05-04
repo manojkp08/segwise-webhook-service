@@ -1,5 +1,6 @@
  # Changed import
-from pydantic import Field, BaseSettings
+from pydantic import Field
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     DATABASE_URL: str = Field(..., env="database_url")
