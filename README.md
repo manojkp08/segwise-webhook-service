@@ -175,8 +175,9 @@ redis-cli FLUSHDB           # Clear all data (dev only)
 | Service | Provider | Details |
 |---------|----------|---------|
 | PostgreSQL | GCP Cloud SQL | Managed database service |
-| Redis | Redis Cloud | 30MB Free Tier (Dedicated) |
+| Redis | Redis Cloud | Through Google Cloud Free tier |
 | Streamlit UI | Streamlit Community Cloud | Analytics dashboard |
+| Fast API | Render | Free tier |
 
 <p align="center">
 Made with ❤️ by Manoj
