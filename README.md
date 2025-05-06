@@ -116,6 +116,7 @@ docker-compose up --build  # Starts API + Worker + Redis + DB
 ```
 
 ## 📡 API Documentation
+(Full API documentation can be found at https://docs.google.com/document/d/1mwhyYywsMIbqxx-ZCbivbzKzG3M394B47ILTwtQzyrY/edit?usp=sharing)
 
 1. Create Subscription
 POST - https://segwise-webhook-service.onrender.com/api/v1/subscriptions/
