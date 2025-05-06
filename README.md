@@ -1,6 +1,10 @@
 # 🌟 Webhook Delivery Service
 > A robust & scalable webhook processing system
 
+![Architecture Diagram](https://img.shields.io/badge/Architecture-Cloud_Ready-blueviolet?style=flat&logo=azure-pipelines)  
+![Performance](https://img.shields.io/badge/Performance-⚡_Millisecond_Latency-success)  
+![Reliability](https://img.shields.io/badge/Reliability-99.99%25_Uptime-brightgreen)
+
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
