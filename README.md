@@ -48,13 +48,40 @@ Webhooks power critical workflows:
 
 ## 📸 Screenshots
 
-![Screenshot from 2025-05-04 10-59-58](https://github.com/user-attachments/assets/2c1a5f6e-11c3-43da-9b09-136ce30c382c)
-![Screenshot from 2025-05-04 11-00-09](https://github.com/user-attachments/assets/dcd3048e-93e5-44c4-b4b3-261b28111cac)
-![Screenshot from 2025-05-04 11-00-52](https://github.com/user-attachments/assets/9f4b6512-56da-40e2-a624-dc4a610d2f45)
-![Screenshot from 2025-05-04 11-01-21](https://github.com/user-attachments/assets/6f17532a-69d2-46f4-9c2c-03afedfb1950)
-![Screenshot from 2025-05-04 11-05-23](https://github.com/user-attachments/assets/ceb2b39b-1eb6-40e5-9319-5c24c3921357)
-![Screenshot from 2025-05-04 11-09-00](https://github.com/user-attachments/assets/054d7cb3-0875-4547-8246-e6f0e83aa81a)
-![Screenshot from 2025-05-04 11-09-11](https://github.com/user-attachments/assets/e5fe3785-13ad-444a-b82b-34aba1cd5585)
+  <div class="gallery">
+      <div class="img-container">
+          <img src="https://github.com/user-attachments/assets/2c1a5f6e-11c3-43da-9b09-136ce30c382c" alt="Screenshot 1">
+          <div class="img-caption">Desktop interface with file browser</div>
+      </div>
+       <div class="img-container">
+          <img src="https://github.com/user-attachments/assets/dcd3048e-93e5-44c4-b4b3-261b28111cac" alt="Screenshot 2">
+          <div class="img-caption">System configuration window</div>
+      </div>
+       <div class="img-container">
+           <img src="https://github.com/user-attachments/assets/9f4b6512-56da-40e2-a624-dc4a610d2f45" alt="Screenshot 3">
+          <div class="img-caption">Application with terminal view</div>
+      </div>
+      <div class="img-container">
+            <img src="https://github.com/user-attachments/assets/6f17532a-69d2-46f4-9c2c-03afedfb1950" alt="Screenshot 4">
+            <div class="img-caption">Terminal with command outputs</div>
+       </div>
+      <div class="img-container">
+           <img src="https://github.com/user-attachments/assets/ceb2b39b-1eb6-40e5-9319-5c24c3921357" alt="Screenshot 5">
+           <div class="img-caption">System settings dialog</div>
+       </div>
+       <div class="img-container">
+          <img src="https://github.com/user-attachments/assets/f579a591-46eb-4657-9a10-2838d44f8075" alt="Screenshot 6">           
+          <div class="img-caption">Code or text editor interface</div>
+      </div>
+       <div class="img-container">
+          <img src="https://github.com/user-attachments/assets/054d7cb3-0875-4547-8246-e6f0e83aa81a" alt="Screenshot 7">
+          <div class="img-caption">System information display</div>
+       </div>
+       <div class="img-container">
+          <img src="https://github.com/user-attachments/assets/e5fe3785-13ad-444a-b82b-34aba1cd5585" alt="Screenshot 8">
+          <div class="img-caption">Terminal with system information</div>
+      </div>
+   </div>
 
 ## 🔄 Workflows
 
