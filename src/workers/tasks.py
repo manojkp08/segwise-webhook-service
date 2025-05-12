@@ -7,7 +7,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-celery = Celery('tasks', broker='redis://default:GRhoCbTJb8HTZAxa430RUAeTrDMQBI1M@redis-15996.fcrce190.us-east-1-1.ec2.redns.redis-cloud.com:15996')
+celery = Celery('tasks', broker='redis://default:MV6QUhIJKDkE1Auf2BYhBQEnP6YzIisv@redis-16388.c279.us-central1-1.gce.redns.redis-cloud.com:16388')
 
 @celery.task(bind=True, max_retries=3)
 def deliver_webhook(self, subscription_id: str, payload: dict):
