@@ -12,6 +12,16 @@ pydantic
 pydantic-settings
 python-jose
 passlib
+requests
+numpy
+datetime
 httpx
 alembic
 python-multipart
+streamlit-echarts
+altair
+seaborn
+matplotlib
+plotly
+streamlit-mermaid
+streamlit-extras

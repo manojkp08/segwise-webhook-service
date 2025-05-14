@@ -1,9 +1,11 @@
+import logging
 from celery import Celery
+import httpx
+
+# now safe to import DB stuff
 from src.db.session import SessionLocal
 from src.core.models.delivery_log import DeliveryLog
 from src.core.models.subscription import Subscription
-import httpx
-import logging
 
 logger = logging.getLogger(__name__)
 

@@ -107,14 +107,11 @@ Webhooks power critical workflows:
 ## 🏃 Local Setup (1 Minute)
 ```bash
 # 1. Clone repo
-git clone https://github.com/your-repo/webhook-delivery-service.git
-cd webhook-delivery-service
-
-# 2. Setup env
-cp .env.example .env  # Update with your Redis/DB credentials
-
-# 3. Run services
-docker-compose up --build  # Starts API + Worker + Redis + DB
+git clone https://github.com/manojkp08/segwise-webhook-service.git
+# 2. Go into the project file
+cd segwise-webhook-service
+# 3. Run services 
+docker-compose up --build  # Starts API + Worker + Streamlit
 
 
 ```
