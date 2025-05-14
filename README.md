@@ -108,13 +108,41 @@ Webhooks power critical workflows:
 ```bash
 # 1. Clone repo
 git clone https://github.com/manojkp08/segwise-webhook-service.git
+
 # 2. Go into the project file
 cd segwise-webhook-service
+
 # 3. Run services 
 docker-compose up --build  # Starts API + Worker + Streamlit
-
-
 ```
+
+### 🔧 Port Conflict Fixes (If Needed)
+- If ports are already allocated (Error: "port is already allocated"):
+
+**Option 1: Quick Port Change**  
+Edit `docker-compose.yml` and change these lines:
+```yaml
+services:
+  redis:
+    ports:
+      - "6381:6379"  # Change 6381 to any free port (e.g., 6382)
+  
+  streamlit:
+    ports:
+      - "8502:8501"  # Change 8502 to any free port (e.g., 8503)
+  
+  web:
+    ports:
+      - "8001:8000"  # Change 8001 to any free port (e.g., 8002)
+```
+
+**Option 2: Kill Occupied Ports (Linux/Mac)**
+```bash
+sudo lsof -i :8501  # Check which process uses port 8501
+kill -9 <PID>       # Replace <PID> with the process ID from above
+```
+
+
 
 ## 📡 API Documentation
 (Full API documentation can be found at https://docs.google.com/document/d/1mwhyYywsMIbqxx-ZCbivbzKzG3M394B47ILTwtQzyrY/edit?usp=sharing)
