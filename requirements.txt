@@ -20,8 +20,6 @@ alembic
 python-multipart
 streamlit-echarts
 altair
-seaborn
-matplotlib
 plotly
 streamlit-mermaid
 streamlit-extras
