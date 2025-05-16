@@ -108,6 +108,12 @@ service = st.sidebar.radio(
 # Main Service Panels
 if service == "Create Subscription":
     st.subheader("📝 New Subscription")
+
+    st.markdown("""
+    🎯 **Recruiter Test URL:**  
+    `https://hook.eu2.make.com/oa7dkj27u6dsx5lcnj7siwcldjg4uj1v` (Copy this to test - no setup needed!)  
+    """)
+    
     with st.form("create_sub"):
         target_url = st.text_input("Target URL", "https://webhook.site/...")
         secret = st.text_input("Secret Key", type="password")
@@ -135,11 +141,6 @@ if service == "Create Subscription":
 
 elif service == "Ingest Webhook":
     st.subheader("⚡ Webhook Simulator")
-
-    st.markdown("""
-    🎯 **Recruiter Test URL:**  
-    `https://hook.eu2.make.com/oa7dkj27u6dsx5lcnj7siwcldjg4uj1v` (Copy this to test - no setup needed!)  
-    """)
 
     sub_id = st.text_input(
         "Subscription ID",
