@@ -18,8 +18,5 @@ datetime
 httpx
 alembic
 python-multipart
-streamlit-echarts
-altair
-plotly
 streamlit-mermaid
 streamlit-extras
